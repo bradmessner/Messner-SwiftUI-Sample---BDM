@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77A133823E0A04600378ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A133723E0A04600378ABB /* AppDelegate.swift */; };
+		B77A133A23E0A04600378ABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A133923E0A04600378ABB /* SceneDelegate.swift */; };
+		B77A133C23E0A04600378ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A133B23E0A04600378ABB /* ContentView.swift */; };
+		B77A133E23E0A04700378ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77A133D23E0A04700378ABB /* Assets.xcassets */; };
+		B77A134123E0A04700378ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77A134023E0A04700378ABB /* Preview Assets.xcassets */; };
+		B77A134423E0A04700378ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77A134223E0A04700378ABB /* LaunchScreen.storyboard */; };
+		B77A134F23E0A04700378ABB /* Messner_SwiftUI_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A134E23E0A04700378ABB /* Messner_SwiftUI_SampleTests.swift */; };
+		B77A135A23E0A04700378ABB /* Messner_SwiftUI_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A135923E0A04700378ABB /* Messner_SwiftUI_SampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B77A134B23E0A04700378ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77A132C23E0A04600378ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77A133323E0A04600378ABB;
+			remoteInfo = "Messner SwiftUI Sample";
+		};
+		B77A135623E0A04700378ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77A132C23E0A04600378ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77A133323E0A04600378ABB;
+			remoteInfo = "Messner SwiftUI Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B77A133423E0A04600378ABB /* Messner SwiftUI Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messner SwiftUI Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77A133723E0A04600378ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B77A133923E0A04600378ABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B77A133B23E0A04600378ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B77A133D23E0A04700378ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B77A134023E0A04700378ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B77A134323E0A04700378ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B77A134523E0A04700378ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77A134A23E0A04700378ABB /* Messner SwiftUI SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner SwiftUI SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77A134E23E0A04700378ABB /* Messner_SwiftUI_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_SwiftUI_SampleTests.swift; sourceTree = "<group>"; };
+		B77A135023E0A04700378ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77A135523E0A04700378ABB /* Messner SwiftUI SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner SwiftUI SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77A135923E0A04700378ABB /* Messner_SwiftUI_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_SwiftUI_SampleUITests.swift; sourceTree = "<group>"; };
+		B77A135B23E0A04700378ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77A133123E0A04600378ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77A134723E0A04700378ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77A135223E0A04700378ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B77A132B23E0A04600378ABB = {
+			isa = PBXGroup;
+			children = (
+				B77A133623E0A04600378ABB /* Messner SwiftUI Sample */,
+				B77A134D23E0A04700378ABB /* Messner SwiftUI SampleTests */,
+				B77A135823E0A04700378ABB /* Messner SwiftUI SampleUITests */,
+				B77A133523E0A04600378ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B77A133523E0A04600378ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B77A133423E0A04600378ABB /* Messner SwiftUI Sample.app */,
+				B77A134A23E0A04700378ABB /* Messner SwiftUI SampleTests.xctest */,
+				B77A135523E0A04700378ABB /* Messner SwiftUI SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77A133623E0A04600378ABB /* Messner SwiftUI Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B77A133723E0A04600378ABB /* AppDelegate.swift */,
+				B77A133923E0A04600378ABB /* SceneDelegate.swift */,
+				B77A133B23E0A04600378ABB /* ContentView.swift */,
+				B77A133D23E0A04700378ABB /* Assets.xcassets */,
+				B77A134223E0A04700378ABB /* LaunchScreen.storyboard */,
+				B77A134523E0A04700378ABB /* Info.plist */,
+				B77A133F23E0A04700378ABB /* Preview Content */,
+			);
+			path = "Messner SwiftUI Sample";
+			sourceTree = "<group>";
+		};
+		B77A133F23E0A04700378ABB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B77A134023E0A04700378ABB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B77A134D23E0A04700378ABB /* Messner SwiftUI SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B77A134E23E0A04700378ABB /* Messner_SwiftUI_SampleTests.swift */,
+				B77A135023E0A04700378ABB /* Info.plist */,
+			);
+			path = "Messner SwiftUI SampleTests";
+			sourceTree = "<group>";
+		};
+		B77A135823E0A04700378ABB /* Messner SwiftUI SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B77A135923E0A04700378ABB /* Messner_SwiftUI_SampleUITests.swift */,
+				B77A135B23E0A04700378ABB /* Info.plist */,
+			);
+			path = "Messner SwiftUI SampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77A133323E0A04600378ABB /* Messner SwiftUI Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77A135E23E0A04700378ABB /* Build configuration list for PBXNativeTarget "Messner SwiftUI Sample" */;
+			buildPhases = (
+				B77A133023E0A04600378ABB /* Sources */,
+				B77A133123E0A04600378ABB /* Frameworks */,
+				B77A133223E0A04600378ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Messner SwiftUI Sample";
+			productName = "Messner SwiftUI Sample";
+			productReference = B77A133423E0A04600378ABB /* Messner SwiftUI Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B77A134923E0A04700378ABB /* Messner SwiftUI SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77A136123E0A04700378ABB /* Build configuration list for PBXNativeTarget "Messner SwiftUI SampleTests" */;
+			buildPhases = (
+				B77A134623E0A04700378ABB /* Sources */,
+				B77A134723E0A04700378ABB /* Frameworks */,
+				B77A134823E0A04700378ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77A134C23E0A04700378ABB /* PBXTargetDependency */,
+			);
+			name = "Messner SwiftUI SampleTests";
+			productName = "Messner SwiftUI SampleTests";
+			productReference = B77A134A23E0A04700378ABB /* Messner SwiftUI SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B77A135423E0A04700378ABB /* Messner SwiftUI SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77A136423E0A04700378ABB /* Build configuration list for PBXNativeTarget "Messner SwiftUI SampleUITests" */;
+			buildPhases = (
+				B77A135123E0A04700378ABB /* Sources */,
+				B77A135223E0A04700378ABB /* Frameworks */,
+				B77A135323E0A04700378ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77A135723E0A04700378ABB /* PBXTargetDependency */,
+			);
+			name = "Messner SwiftUI SampleUITests";
+			productName = "Messner SwiftUI SampleUITests";
+			productReference = B77A135523E0A04700378ABB /* Messner SwiftUI SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B77A132C23E0A04600378ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brad D. Messner";
+				TargetAttributes = {
+					B77A133323E0A04600378ABB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B77A134923E0A04700378ABB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B77A133323E0A04600378ABB;
+					};
+					B77A135423E0A04700378ABB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B77A133323E0A04600378ABB;
+					};
+				};
+			};
+			buildConfigurationList = B77A132F23E0A04600378ABB /* Build configuration list for PBXProject "Messner SwiftUI Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B77A132B23E0A04600378ABB;
+			productRefGroup = B77A133523E0A04600378ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77A133323E0A04600378ABB /* Messner SwiftUI Sample */,
+				B77A134923E0A04700378ABB /* Messner SwiftUI SampleTests */,
+				B77A135423E0A04700378ABB /* Messner SwiftUI SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B77A133223E0A04600378ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77A134423E0A04700378ABB /* LaunchScreen.storyboard in Resources */,
+				B77A134123E0A04700378ABB /* Preview Assets.xcassets in Resources */,
+				B77A133E23E0A04700378ABB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77A134823E0A04700378ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77A135323E0A04700378ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77A133023E0A04600378ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77A133823E0A04600378ABB /* AppDelegate.swift in Sources */,
+				B77A133A23E0A04600378ABB /* SceneDelegate.swift in Sources */,
+				B77A133C23E0A04600378ABB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77A134623E0A04700378ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77A134F23E0A04700378ABB /* Messner_SwiftUI_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77A135123E0A04700378ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77A135A23E0A04700378ABB /* Messner_SwiftUI_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B77A134C23E0A04700378ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77A133323E0A04600378ABB /* Messner SwiftUI Sample */;
+			targetProxy = B77A134B23E0A04700378ABB /* PBXContainerItemProxy */;
+		};
+		B77A135723E0A04700378ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77A133323E0A04600378ABB /* Messner SwiftUI Sample */;
+			targetProxy = B77A135623E0A04700378ABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B77A134223E0A04700378ABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B77A134323E0A04700378ABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B77A135C23E0A04700378ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B77A135D23E0A04700378ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B77A135F23E0A04700378ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Messner SwiftUI Sample/Preview Content\"";
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Messner SwiftUI Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-SwiftUI-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B77A136023E0A04700378ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Messner SwiftUI Sample/Preview Content\"";
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Messner SwiftUI Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-SwiftUI-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B77A136223E0A04700378ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner SwiftUI SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-SwiftUI-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner SwiftUI Sample.app/Messner SwiftUI Sample";
+			};
+			name = Debug;
+		};
+		B77A136323E0A04700378ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner SwiftUI SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-SwiftUI-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner SwiftUI Sample.app/Messner SwiftUI Sample";
+			};
+			name = Release;
+		};
+		B77A136523E0A04700378ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner SwiftUI SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-SwiftUI-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner SwiftUI Sample";
+			};
+			name = Debug;
+		};
+		B77A136623E0A04700378ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner SwiftUI SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-SwiftUI-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner SwiftUI Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77A132F23E0A04600378ABB /* Build configuration list for PBXProject "Messner SwiftUI Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77A135C23E0A04700378ABB /* Debug */,
+				B77A135D23E0A04700378ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77A135E23E0A04700378ABB /* Build configuration list for PBXNativeTarget "Messner SwiftUI Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77A135F23E0A04700378ABB /* Debug */,
+				B77A136023E0A04700378ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77A136123E0A04700378ABB /* Build configuration list for PBXNativeTarget "Messner SwiftUI SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77A136223E0A04700378ABB /* Debug */,
+				B77A136323E0A04700378ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77A136423E0A04700378ABB /* Build configuration list for PBXNativeTarget "Messner SwiftUI SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77A136523E0A04700378ABB /* Debug */,
+				B77A136623E0A04700378ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B77A132C23E0A04600378ABB /* Project object */;
+}
